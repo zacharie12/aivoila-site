@@ -1,0 +1,112 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>aiVOILÀ – AI Made Simple</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"/>
+  <style>
+    body { margin: 0; font-family: 'Inter', sans-serif; background: white; color: #1f1f1f; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 2rem; max-width: 1200px; margin: auto; }
+    .logo { font-size: 1.5rem; }
+    .logo span:first-child { color: #33B5E5; font-weight: 600; font-style: italic; }
+    .logo span:last-child { color: #7A4DFF; font-weight: 800; }
+    .hero { text-align: center; padding: 6rem 1rem 4rem; background: linear-gradient(to bottom, #f9f9ff, #ffffff); }
+    .hero h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 1rem; }
+    .hero p { font-size: 1.2rem; max-width: 600px; margin: auto; color: #555; }
+    .cta { margin-top: 2rem; }
+    .cta a { background: #7A4DFF; color: white; text-decoration: none; padding: 0.8rem 2rem; font-weight: 600; border-radius: 12px; }
+    section { max-width: 1000px; margin: 4rem auto; padding: 0 1rem; }
+    section h2 { font-size: 2rem; margin-bottom: 1rem; color: #1f1f1f; }
+    section ul { list-style: none; padding: 0; }
+    section li { margin-bottom: 0.75rem; font-size: 1.1rem; }
+    .steps, .industries, .benefits { display: grid; gap: 1.5rem; }
+    footer { text-align: center; padding: 3rem 1rem; background: #f4f4f4; font-size: 0.9rem; color: #777; }
+    @media (min-width: 768px) {
+      .steps, .industries, .benefits { grid-template-columns: repeat(2, 1fr); }
+      .hero h1 { font-size: 3.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><span>ai</span><span>VOILÀ</span></div>
+    <div class="cta"><a href="#book-demo">Book a Demo</a></div>
+  </header>
+
+  <div class="hero">
+    <h1>AI made simple. Results made real.</h1>
+    <p>aiVOILÀ builds a custom AI solution for your business — no jargon, no hiring, no confusion. Just results.</p>
+    <div class="cta"><a href="#book-demo">Book a Demo</a></div>
+  </div>
+
+  <section>
+    <h2>Who Is It For?</h2>
+    <p>Whether you run a retail brand, logistics chain, or service company — you know AI can help, but don’t want the complexity. We deliver AI that works for your business, not someone else’s.</p>
+  </section>
+
+  <section>
+    <h2>Industries We Help</h2>
+    <div class="industries">
+      <div>
+        <h3>Retail & Fashion</h3>
+        <ul>
+          <li>• Forecast inventory and reduce waste</li>
+          <li>• Recommend products to the right customers</li>
+          <li>• Optimize pricing and promotions</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Logistics & Supply Chain</h3>
+        <ul>
+          <li>• Predict delivery delays</li>
+          <li>• Optimize routes and fleet usage</li>
+          <li>• Automate manual decisions</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Services & Operations</h3>
+        <ul>
+          <li>• Automate support tasks</li>
+          <li>• Predict client churn</li>
+          <li>• Improve scheduling</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div><strong>1. Tell us your need:</strong> Inventory, support, forecasting — anything.</div>
+      <div><strong>2. Upload data:</strong> CSVs or connect ERP/CRM systems.</div>
+      <div><strong>3. We build your AI:</strong> See results before committing.</div>
+      <div><strong>4. You use it:</strong> Secure, reliable, custom AI deployed for you.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why aiVOILÀ?</h2>
+    <ul class="benefits">
+      <li>✅ No technical knowledge required</li>
+      <li>✅ Tailored to your business goals</li>
+      <li>✅ Fast — no need to hire an AI team</li>
+      <li>✅ Private, secure, production-ready</li>
+    </ul>
+  </section>
+
+  <section id="book-demo">
+    <h2>You're busy. Let us handle the AI.</h2>
+    <p>Book a free demo — see how AI can work for your business without the guesswork.</p>
+    <div class="cta"><a href="https://calendly.com/zacharie-cohen/30min" target="_blank">Book a Demo</a></div>
+  </section>
+
+  <footer>
+    © aiVOILÀ – AI made simple.<br />
+    Contact: contact@aivoila.com
+  </footer>
+</body>
+</html>
